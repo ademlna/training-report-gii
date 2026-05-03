@@ -1,13 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-be-training/.env
-be-training/build
-be-training/node_modules
+# Root
+.env
+*.env
 
+# Backend
+be-training/.env
+be-training/node_modules/
+be-training/build/
+
+# Frontend
 fe-training/.env
-fe-training/build
-fe-training/node_modules
+fe-training/node_modules/
+fe-training/build/
 
 # /.pnp
 # .pnp.js
