@@ -6,14 +6,14 @@
 *.env
 
 # Backend
-be-training/.env
-be-training/node_modules/
-be-training/build/
-
-# Frontend
-fe-training/.env
-fe-training/node_modules/
-fe-training/build/
+# be-training/.env
+# be-training/node_modules/
+# be-training/build/
+# be-training
+# # Frontend
+# fe-training/.env
+# fe-training/node_modules/
+# fe-training/build/
 
 # /.pnp
 # .pnp.js
